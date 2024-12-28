@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Blog - Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+ 
+<div class="content-wrapper">
+  <main>
+    <section class="hero">
+      <h1>Welcome to My Travel Blog</h1>
+      <p>Discover new places around the world!</p>
+    </section>
+
+    <br>
+    <h2>Featured Destinations:</h2>
+
+    <section class="destinations">
+      <div class="destination-card">
+        <img src="destination1.jpg" alt="Destination 1">
+        <h3>Paris, France</h3>
+        <p>Experience the romance and culture of Paris, the city of lights.</p>
+        <a href="#" class="btn" onclick="revealMore('destination1')">Read More</a>
+        <div id="destination1" class="extra-info">
+          <p>Paris, France, is a world-renowned city with iconic landmarks, rich history, and cultural treasures. The Eiffel Tower, Louvre Museum, Notre-Dame Cathedral, Sainte-Chapelle, Champs-Élysées, Arc de Triomphe, Luxembourg Gardens, Montmartre, Seine River cruise, and Palace of Versailles offer unique experiences. From art and history to shopping and dining, Paris is a must-see for travelers.</p>
+        </div>
+      </div>
+
+      <div class="destination-card">
+        <img src="destination2.jpg" alt="Destination 2">
+        <h3>Bali, Indonesia</h3>
+        <p>Relax on beautiful beaches and explore lush rice terraces.</p>
+        <a href="#" class="btn" onclick="revealMore('destination2')">Read More</a>
+        <div id="destination2" class="extra-info">
+          <p>Discover Ubud, the cultural heart of Bali, where you can take in traditional Balinese art, meditate on peaceful rice terraces, and explore the Sacred Monkey Forest. After that, travel to Seminyak, which is known for its stunning beaches, luxurious resorts, and exciting nightlife. Don't miss Bali's magnificent temples, such as Uluwatu's cliffside beauty at sunset and Tanah Lot's breath-taking ocean views.</p>
+        </div>
+      </div>
+
+      <div class="destination-card">
+        <img src="destination3.jpg" alt="Destination 3">
+        <h3>Tokyo, Japan</h3>
+        <p>Experience the blend of modern and traditional culture in Tokyo.</p>
+        <a href="#" class="btn" onclick="revealMore('destination3')">Read More</a>
+        <div id="destination3" class="extra-info">
+          <p>Savor the colorful Shibuya Crossing, the historic Senso-ji Temple in Asakusa, and the mouthwatering array of street food, sushi, and ramen options. Tokyo has something for every type of visitor, with its blend of sophisticated skyscrapers, tranquil temples, and verdant parks.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+
+  <footer>
+    <p>&copy; 2024 Travel Blog. All Rights Reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
